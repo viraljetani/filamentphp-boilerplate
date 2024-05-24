@@ -53,7 +53,6 @@ class AdminPanelProvider extends PanelProvider
                     ->navigationIcon('heroicon-o-photo')
                     ->navigationGroup('Media')
                     ->navigationCountBadge(),
-                FilamentExceptionsPlugin::make(),
                 FilamentJobsMonitorPlugin::make()
                     ->navigationCountBadge()
                     ->navigationGroup('Settings'),
