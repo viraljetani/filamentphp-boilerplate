@@ -1,7 +1,8 @@
-# Filament Starter
+# Filament Boilerplate
+Heavily opinionated Filament starter project with a TALL stack. (TailwindCSS, Alpine.js, Laravel, Livewire)
+Created using the Starter project: Log1x/filament-starter
 
-Here lives a beautiful starting point to quickly bootstrap your next [TALL stack](https://tallstack.dev/) application utilizing [Filament](https://filamentphp.com/) for the admin panel.
-
+This is a robust starting point that allows you to rapidly set up your next [TALL stack](https://tallstack.dev/) application, leveraging [Filament](https://filamentphp.com/) for the administration panel.
 ![Screenshot](https://i.imgur.com/AxerbeO.png)
 
 ## Features
@@ -60,7 +61,7 @@ yarn build
 The following [Filament plugins](https://filamentphp.com/plugins) come fully implemented and configured out of the box:
 
 | **Plugin**                                                          | **Description**                                    | **Author**                                      |
-| :------------------------------------------------------------------ | :------------------------------------------------- | :---------------------------------------------- |
+|:--------------------------------------------------------------------|:---------------------------------------------------|:------------------------------------------------|
 | [Curator](https://github.com/awcodes/filament-curator)              | A beautiful media library.                         | [awcodes](https://github.com/awcodes)           |
 | [Gravatar](https://github.com/awcodes/filament-gravatar)            | Easy avatar integration powered by Gravatar.       | [awcodes](https://github.com/awcodes)           |
 | [Exceptions](https://github.com/bezhansalleh/filament-exceptions)   | A simple but powerful Exception viewer.            | [bezhansalleh](https://github.com/bezhansalleh) |
@@ -68,6 +69,7 @@ The following [Filament plugins](https://filamentphp.com/plugins) come fully imp
 | [Breezy](https://github.com/jeffgreco13/filament-breezy)            | Customizable user profile pages and 2FA support.   | [jeffgreco13](https://github.com/jeffgreco13)   |
 | [Peek](https://github.com/pboivin/filament-peek)                    | Quick & efficient front-end previews of resources. | [pboivin](https://github.com/pboivin)           |
 | [Logger](https://github.com/z3d0x/filament-logger)                  | Zero-config resource activity logging.             | [z3d0x](https://github.com/z3d0x)               |
+| [Sheild](https://github.com/bezhanSalleh/filament-shield)                  | Roles & Permissions.                               | [bezhansalleh](https://github.com/bezhansalleh)               |
 
 ## Bug Reports
 
