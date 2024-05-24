@@ -7,6 +7,7 @@ use Awcodes\Curator\CuratorPlugin;
 use Awcodes\FilamentGravatar\GravatarPlugin;
 use Awcodes\FilamentGravatar\GravatarProvider;
 use BezhanSalleh\FilamentExceptions\FilamentExceptionsPlugin;
+use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
 use Croustibat\FilamentJobsMonitor\FilamentJobsMonitorPlugin;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -59,6 +60,22 @@ class AdminPanelProvider extends PanelProvider
                 FilamentPeekPlugin::make()
                     ->disablePluginStyles(),
                 GravatarPlugin::make(),
+                FilamentShieldPlugin::make()
+                    ->gridColumns([
+                        'default' => 1,
+                        'sm' => 2,
+                        'lg' => 2
+                    ])
+                    ->sectionColumnSpan(1)
+                    ->checkboxListColumns([
+                        'default' => 1,
+                        'sm' => 2,
+                        'lg' => 4,
+                    ])
+                    ->resourceCheckboxListColumns([
+                        'default' => 1,
+                        'sm' => 2,
+                    ]),
             ])
             ->defaultAvatarProvider(GravatarProvider::class)
             ->favicon(asset('/favicon-32x32.png'))

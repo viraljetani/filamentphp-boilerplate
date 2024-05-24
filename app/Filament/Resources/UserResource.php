@@ -72,6 +72,16 @@ class UserResource extends Resource
                     ->password()
                     ->required(fn (string $operation): bool => $operation === 'create')
                     ->maxLength(255),
+
+                /*Forms\Components\CheckboxList::make('roles')
+                    ->relationship('roles', 'name')
+                    ->searchable()*/
+
+                Forms\Components\Select::make('roles')
+                    ->relationship('roles', 'name')
+                    ->multiple()
+                    ->searchable()
+                    ->preload(),
             ]);
     }
 

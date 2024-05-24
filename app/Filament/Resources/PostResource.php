@@ -6,6 +6,7 @@ use App\Filament\Resources\PostResource\Pages;
 use App\Models\Post;
 use Awcodes\Curator\Components\Forms\CuratorPicker;
 use Awcodes\Curator\Components\Tables\CuratorColumn;
+use BezhanSalleh\FilamentShield\Traits\HasPageShield;
 use Filament\Forms;
 use Filament\Forms\Components\Builder;
 use Filament\Forms\Form;
@@ -18,6 +19,7 @@ use Illuminate\Support\Str;
 
 class PostResource extends Resource
 {
+    use HasPageShield;
     /**
      * The resource record title.
      */
