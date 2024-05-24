@@ -73,7 +73,7 @@ The following [Filament plugins](https://filamentphp.com/plugins) come fully imp
 
 ## Bug Reports
 
-If you discover a bug in Filament Starter, please [open an issue](https://github.com/log1x/filament-starter/issues).
+If you discover a bug in Filament Starter, please [open an issue](https://github.com/viraljetani/filamentphp-boilerplate/issues/new/choose).
 
 ## Contributing
 
