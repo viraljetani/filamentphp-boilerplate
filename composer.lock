@@ -74,16 +74,16 @@
         },
         {
             "name": "awcodes/filament-curator",
-            "version": "v3.5.8",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awcodes/filament-curator.git",
-                "reference": "2b304232c28714bba4561be89e4a53d68257a59f"
+                "reference": "eeae23d303433f22e0095383270f3289ee1e3d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awcodes/filament-curator/zipball/2b304232c28714bba4561be89e4a53d68257a59f",
-                "reference": "2b304232c28714bba4561be89e4a53d68257a59f",
+                "url": "https://api.github.com/repos/awcodes/filament-curator/zipball/eeae23d303433f22e0095383270f3289ee1e3d71",
+                "reference": "eeae23d303433f22e0095383270f3289ee1e3d71",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,7 @@
             ],
             "support": {
                 "issues": "https://github.com/awcodes/filament-curator/issues",
-                "source": "https://github.com/awcodes/filament-curator/tree/v3.5.8"
+                "source": "https://github.com/awcodes/filament-curator/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -151,7 +151,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-16T17:21:18+00:00"
+            "time": "2024-05-26T15:04:14+00:00"
         },
         {
             "name": "awcodes/filament-gravatar",
@@ -4469,16 +4469,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a"
+                "reference": "8eab8983c83c30e0bacbef8d311e3f3b8172727f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a",
-                "reference": "8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8eab8983c83c30e0bacbef8d311e3f3b8172727f",
+                "reference": "8eab8983c83c30e0bacbef8d311e3f3b8172727f",
                 "shasum": ""
             },
             "require": {
@@ -4571,7 +4571,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-01T06:54:22+00:00"
+            "time": "2024-05-24T14:26:34+00:00"
         },
         {
             "name": "nette/schema",
